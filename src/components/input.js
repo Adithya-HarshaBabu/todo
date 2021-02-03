@@ -1,8 +1,8 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import React, { useState } from "react";
 import "./input.css";
-import { useDispatch } from "react-redux-hook";
-import saveTodo from "../features/todoSlice";
+import { useDispatch } from "react-redux";
+import saveTodo from "../features/todoslice";
 const input = () => {
   const { input, setInput } = useState("");
   const dispatch = useDispatch();
