@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./input.css";
-import useDispatch from "react-redux";
+import { useDispatch } from "react-redux-hook";
 import saveTodo from "../features/todoSlice";
 const input = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
