@@ -1,5 +1,9 @@
 {
     "cSpell.ignoreWords": [
         "todos"
+    ],
+    "cSpell.words": [
+        "reduxjs",
+        "todoslice"
     ]
 }
